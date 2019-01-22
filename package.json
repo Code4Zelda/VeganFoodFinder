@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon src/server/server.js",
+    "start": "nodemon ./src/server/server.js",
     "webpack": "webpack",
     "dev": "webpack-dev-server --open --config webpack.config.js --hot"
   },
@@ -28,7 +28,7 @@
     "url-loader": "^1.1.2",
     "webpack": "^4.26.1",
     "webpack-cli": "^3.1.2",
-    "webpack-dev-server": "^3.1.10"
+    "webpack-dev-server": "^3.1.14"
   },
   "dependencies": {
     "body-parser": "^1.18.3",
