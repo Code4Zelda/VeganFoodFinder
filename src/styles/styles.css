@@ -1,0 +1,72 @@
+/* .Venice {
+width: 100%;
+height: 400px;
+background-image: url('/Users/Dnall27/Desktop/c620x376.jpg');
+background-repeat: no-repeat;
+background-size: contain;
+border: 1px solid red;
+} */
+
+body{
+    background:#E3FFA8  ;
+}
+h1 {
+    font-size: 50px;
+    font: center;
+    text-align: center;
+    color: purple;
+    animation: mymove 10s infinite;
+}
+@-webkit-keyframes mymove {
+    from {left: 0px;}
+    to {left: 200px;}
+}
+
+@keyframes mymove {
+    from {left: 0px;}
+    to {left: 200px;}
+}
+
+
+    .pics {
+        width:300px;
+        display: -webkit-flex;
+        flex-wrap:wrap;
+        border:solid;
+        border-color: white;
+      }
+.up {
+    display: -webkit-flex;
+}
+.down {
+    display: -webkit-flex;
+}
+
+
+.pics > div {
+    background-color: #f1f1f1;
+   
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+  }
+ 
+.up:hover {
+    background-color: black;
+}
+  
+  .pics > div:hover  {
+    opacity: 0.3;
+  }
+  
+  .pics > div:hover  {
+    opacity: 1;
+    background-color: gray;
+  }
+
+.place {
+    background-color: peachpuff;
+    border: solid;
+    border-style: black;
+    top:0px;
+}
